@@ -5,6 +5,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - ## OOPS
   - Solid principle of java(https://www.baeldung.com/solid-principles)
   - Object Cloning in Java
+  - type of set in java
 
 # Spring
 
@@ -12,6 +13,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html
   - https://www.baeldung.com/spring-bean-annotations 
 - [What is difference between spring and spring boot?](https://www.baeldung.com/spring-vs-spring-boot)
+- type of autowiring in spring
 
 # Hibernate
 
