@@ -8,7 +8,9 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 
 # Spring
 
-- @Bean can be used at class level? (https://www.baeldung.com/spring-bean-annotations) 
+- @Bean can be used at class level? 
+  - (https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html)
+  - (https://www.baeldung.com/spring-bean-annotations) 
 - 
 
 # Hibernate
