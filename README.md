@@ -8,7 +8,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 
 # Spring
 
-- 
+- @Bean can be used at class level? (https://www.baeldung.com/spring-bean-annotations) 
 - 
 
 # Hibernate
@@ -18,7 +18,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 
 # MySql
 
-- 
+- self join of same table for username and manager name.
 - 
 
 # Elastic Search
