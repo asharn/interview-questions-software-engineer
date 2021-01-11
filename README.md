@@ -6,6 +6,9 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - Solid principle of java(https://www.baeldung.com/solid-principles)
   - Object Cloning in Java
   - type of set in java
+- ## Thread
+  - Blocking queue
+  - Producer and consumer approach
 
 # Spring
 
