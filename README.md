@@ -15,6 +15,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 
 # Hibernate
 
+http://hibernate.org/orm/documentation/5.4/
+
 - 
 - 
 
@@ -24,6 +26,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - 
 
 # Elastic Search
+https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 - 
 - 
