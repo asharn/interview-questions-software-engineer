@@ -30,3 +30,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 - 
 - 
+
+# Design Pattern
+
+- Why double check in Singleton?
+- 
