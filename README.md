@@ -9,6 +9,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - ## Thread
   - Blocking queue
   - Producer and consumer approach
+- [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
 
 # Spring
 
@@ -21,6 +22,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - Use of @ComponentScan annotaion?
 - [Can we use @component instead of @service in spring?](https://www.baeldung.com/spring-component-repository-service#:~:text=We%20can%20use%20%40Component%20across,Service%20and%20%40Repository%20in%20general.&text=%40Service%20and%20%40Repository%20are%20special%20cases%20of%20%40Component.)
 - Why spingboot?
+- How spring transaction management work?
 
 # Hibernate
 
