@@ -10,6 +10,10 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - Blocking queue
   - Producer and consumer approach
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
+- Types of GC
+- Types of classloader and Bootstrap classloader?
+- use of transient keyword
+- 
 
 # Spring
 
@@ -29,6 +33,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 http://hibernate.org/orm/documentation/5.4/
 
 - [What Is a Second-Level Cache?](https://www.baeldung.com/hibernate-second-level-cache)
+- Different annotations in hibernate?
+- @OneToMany mapping?
 - 
 
 # MySql
@@ -38,11 +44,12 @@ http://hibernate.org/orm/documentation/5.4/
 
 # Elastic Search
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
-
-- 
+- different types of queries
+- less than and greater than
+- How to fetch total record no. of a query?
 - 
 
 # Design Pattern
 
 - Why double check in Singleton?
-- 
+- Singlton real world example.
