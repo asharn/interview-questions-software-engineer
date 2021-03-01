@@ -18,6 +18,13 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - HashMap is on which data structure?
 - elliminated permGen memory block from java 8, why?
 - optional with stream() can be applied or not?
+- How to make class immutable?
+- ## Java-8
+  - [What is metaspace in java 8?](https://www.baeldung.com/java-permgen-metaspace)
+  - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
+  - [Predicate Interface in java](https://www.geeksforgeeks.org/java-8-predicate-with-examples/)
+  - Parallel Stream with findFirst?
+
 
 # Spring
 
