@@ -40,6 +40,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - How spring transaction management work?
 - Best practice for writing naming convention of api URI.
 - [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
+- [Maven Dependency Scopes](https://www.baeldung.com/maven-dependency-scopes)
 
 # Hibernate
 
