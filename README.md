@@ -39,6 +39,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - Why spingboot?
 - How spring transaction management work?
 - Best practice for writing naming convention of api URI.
+- [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
 
 # Hibernate
 
