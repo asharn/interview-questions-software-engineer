@@ -24,6 +24,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
   - [Predicate Interface in java](https://www.geeksforgeeks.org/java-8-predicate-with-examples/)
   - Parallel Stream with findFirst?
+  - [Stateless and stateful operations of stream](https://www.oreilly.com/library/view/introduction-to-programming/9781788839129/50f54a6f-dd25-40bc-89d2-31b73d95b6b7.xhtml)
 
 
 # Spring
@@ -72,4 +73,4 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 # Maven
 
 - [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
-- 
+- Dependency scope of maven
