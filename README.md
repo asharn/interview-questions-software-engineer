@@ -67,3 +67,9 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 - Why double check in Singleton?
 - Singlton real world example.
+
+
+# Maven
+
+- [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
+- 
