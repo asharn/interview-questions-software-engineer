@@ -50,7 +50,9 @@ http://hibernate.org/orm/documentation/5.4/
 - [What Is a Second-Level Cache?](https://www.baeldung.com/hibernate-second-level-cache)
 - Different annotations in hibernate?
 - @OneToMany mapping?
-- 
+- What is the use of @inheritance?
+- How to use super class and sub class as indivisual entity?
+- Where we can use @manyToMany mapping, explain we example?
 
 # MySql
 
@@ -62,15 +64,26 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - different types of queries
 - less than and greater than
 - How to fetch total record no. of a query?
-- 
+- What is token filter(stopwords, tokenizer, etc)?
+- What is analyser? How we can use this in ES?
+- How to create mapping?
+- What are different Http methods use in ES query?
+- Instead of POST when we PUT some record/doc then what will happen?
 
 # Design Pattern
 
 - Why double check in Singleton?
 - Singlton real world example.
+- What is proxy class?
+- How to create proxy design pattern?
+- What is abstract design pattern?
+- What is Command design pattern? Where we can use this?
+- What are the different design pattern use in Spring framework?
 
 
 # Maven
 
 - [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
 - Dependency scope of maven
+- What is main purpose of maven?
+- How maven search dependency in our system? Explain.
