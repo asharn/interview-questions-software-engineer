@@ -58,6 +58,7 @@ http://hibernate.org/orm/documentation/5.4/
 
 - self join of same table for username and manager name.
 - What is the use of Composite key?
+- MySql Tunning?
 
 # Elastic Search
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
@@ -87,3 +88,10 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - Dependency scope of maven
 - What is main purpose of maven?
 - How maven search dependency in our system? Explain.
+
+# AWS
+
+- What is EC2 instance?
+- For what purpose S3 bucket is used?
+- Public and private S3 bucket?
+- 
