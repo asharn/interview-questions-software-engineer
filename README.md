@@ -80,6 +80,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - What is abstract design pattern?
 - What is Command design pattern? Where we can use this?
 - What are the different design pattern use in Spring framework?
+- [How to prevent Singleton Pattern from Reflection, Serialization and Cloning?](https://www.geeksforgeeks.org/prevent-singleton-pattern-reflection-serialization-cloning/)
 
 
 # Maven
