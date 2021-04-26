@@ -20,12 +20,16 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - optional with stream() can be applied or not?
 - How to make class immutable?
 - How many different ways to create objects in Java?
+- [Why string is immutable class?](https://stackoverflow.com/questions/22397861/why-is-string-immutable-in-java)
 - ## Java-8
   - [Wha is metaspace in java 8?](https://www.baeldung.com/java-permgen-metaspace)
   - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
   - [Predicate Interface in java](https://www.geeksforgeeks.org/java-8-predicate-with-examples/)
   - Parallel Stream with findFirst?
   - [Stateless and stateful operations of stream](https://www.oreilly.com/library/view/introduction-to-programming/9781788839129/50f54a6f-dd25-40bc-89d2-31b73d95b6b7.xhtml)
+  - [How parallel stream works?](https://www.geeksforgeeks.org/what-is-java-parallel-streams/)
+  - [What is major diff. between forEach and stream?](https://www.baeldung.com/java-collection-stream-foreach)
+  
 
 
 # Spring
@@ -43,6 +47,9 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - Best practice for writing naming convention of api URI.
 - [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
 - [Maven Dependency Scopes](https://www.baeldung.com/maven-dependency-scopes)
+- [Types of IOC containers in Spring Framework](https://www.edureka.co/community/17155/types-of-ioc-containers-in-spring-framework)
+- [What is servlet controller?](https://www.baeldung.com/spring-boot-servlet-containers#:~:text=Spring%20Boot%20allows%20developers%20to,Tomcat%2C%20Undertow%2C%20and%20Jetty.)
+- [What is sping boot acuator](https://www.baeldung.com/spring-boot-actuators)
 
 # Hibernate
 
@@ -110,3 +117,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 - 100 doors
 - 9 balls 1 weighing machine
+
+# MISC
+- [Different HTTP types? What is PATCH http method?](https://www.tutorialspoint.com/http/http_methods.htm)
+- [What will be differrent reason when below 2 mb file uploaded and above doesn't through a api?](https://stackoverflow.com/questions/64166566/what-is-the-maximum-file-size-allowed-to-send-through-rest-api)
