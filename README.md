@@ -12,6 +12,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - final syncronization variable or method can be possible?
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
 - Types of GC
+- [Explain internal working of GC(Garbage Collector)?](https://www.hackerearth.com/practice/notes/how-garbage-collection-works-in-java/)
 - Allocating max head size for jar?
 - Types of classloader and Bootstrap classloader?
 - use of transient keyword
@@ -42,25 +43,28 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [How to include one package to another package?](https://stackoverflow.com/questions/30425016/spring-boot-find-autowired-on-another-package)
 - Use of @ComponentScan annotaion?
 - [Can we use @component instead of @service in spring?](https://www.baeldung.com/spring-component-repository-service#:~:text=We%20can%20use%20%40Component%20across,Service%20and%20%40Repository%20in%20general.&text=%40Service%20and%20%40Repository%20are%20special%20cases%20of%20%40Component.)
-- Why spingboot?
-- How spring transaction management work?
-- Best practice for writing naming convention of api URI.
+- [Why spingboot?](https://www.baeldung.com/spring-vs-spring-boot)
+- [How spring transaction management work?](https://www.baeldung.com/transaction-configuration-with-jpa-and-spring)
+- [Best practice for writing naming convention of api URI.](https://medium.com/linkit-intecs/rest-resource-naming-best-practices-cbee65f37a62)
 - [What is a transitive Maven dependency?](https://stackoverflow.com/questions/41725810/what-is-a-transitive-maven-dependency)
 - [Maven Dependency Scopes](https://www.baeldung.com/maven-dependency-scopes)
 - [Types of IOC containers in Spring Framework](https://www.edureka.co/community/17155/types-of-ioc-containers-in-spring-framework)
 - [What is servlet controller?](https://www.baeldung.com/spring-boot-servlet-containers#:~:text=Spring%20Boot%20allows%20developers%20to,Tomcat%2C%20Undertow%2C%20and%20Jetty.)
 - [What is sping boot acuator](https://www.baeldung.com/spring-boot-actuators)
+- [What is dev tools in spring? For what purpose it is used?](https://www.baeldung.com/spring-boot-devtools)
+- [What is spring MVC?](https://www.baeldung.com/spring-mvc-tutorial#springmvc)
 
 # Hibernate
 
 http://hibernate.org/orm/documentation/5.4/
 
 - [What Is a Second-Level Cache?](https://www.baeldung.com/hibernate-second-level-cache)
-- Different annotations in hibernate?
-- @OneToMany mapping?
-- What is the use of @inheritance?
-- How to use super class and sub class as indivisual entity?
+- [Different annotations in hibernate?](https://dzone.com/articles/all-hibernate-annotations-mapping-annotations)
+- [@OneToMany mapping?](https://www.baeldung.com/hibernate-one-to-many)
+- [What is the use of @inheritance?](https://www.baeldung.com/hibernate-inheritance)
+- [How to use super class and subclass as individual entity?](https://www.baeldung.com/hibernate-inheritance)
 - Where we can use @manyToMany mapping, explain we example?
+- [What is disadvantage of hibernate?](https://www.quora.com/What-are-disadvantages-of-hibernate)
 
 # MySql
 
@@ -69,6 +73,7 @@ http://hibernate.org/orm/documentation/5.4/
 - MySql Tunning?
 - [How to delete only duplicate/copy from employ table?](https://www.sqlshack.com/different-ways-to-sql-delete-duplicate-rows-from-a-sql-table/#:~:text=SQL%20delete%20duplicate%20Rows%20using%20Group%20By%20and%20having%20clause&text=The%20Group%20By%20clause%20groups,1%20in%20the%20Employee%20table.)
 - [How to fetch first and last record from the table?](https://www.tutorialspoint.com/how-to-get-the-first-and-last-record-of-the-table-in-mysql#:~:text=To%20get%20the%20first%20and%20last%20record%2C%20use%20UNION.,number%20of%20records%20you%20want.)
+- Write MySql query to print second highest salary from employee table?
 
 # Elastic Search
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
@@ -116,9 +121,55 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 # PUZZLE
 
-- 100 doors
-- 9 balls 1 weighing machine
+- [100 doors](https://www.geeksforgeeks.org/puzzle-16-100-doors/)
+- [9 balls 1 different weight](https://suresolv.com/brain-teaser/find-fake-ball-among-9-identical-balls-3-weighing-puzzle)
+- [Find the fastest 3 horses](https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/)
+- 
 
 # MISC
 - [Different HTTP types? What is PATCH http method?](https://www.tutorialspoint.com/http/http_methods.htm)
 - [What will be differrent reason when below 2 mb file uploaded and above doesn't through a api?](https://stackoverflow.com/questions/64166566/what-is-the-maximum-file-size-allowed-to-send-through-rest-api)
+
+# Competitive Programming
+- Find 2nd lagest number in an array? Input: {23,10,34,23,20} -> output: 23
+  ```
+    set arr = [23,10,34,23,20]
+    int lengthOfArray = arr.length();
+    int max = 0;
+    int secondMax = 0;
+    for(int i=0;i<lengthOfArray;i++){
+    if(arr[i]>max){
+    secondMax = max;
+    max= arr[i];
+    }
+
+    s.o.p(secondMax);
+
+    }
+  ```
+- Occurance count string = "AAABBCCCDDAACCEE" then ouput : 3A2B3C2D2A2C2E
+  ```
+        public class Main
+      {
+          public static void main(String[] args) {
+
+              String str = "AAABBCCCDDAACCEE";
+              int strLength = str.length();
+              char ch = str.charAt(0);
+              int counter = 0;
+              for(int i=0;i<strLength;i++){
+                  if(ch == str.charAt(i)){
+                      counter=counter+1;
+                      continue;
+                  } else {
+                      System.out.print(counter);
+                      System.out.print(ch);
+                      counter = 1;
+                      ch = str.charAt(i);
+                  }
+              }
+              System.out.print(counter);
+              System.out.print(ch);
+          }
+      }
+  ```
