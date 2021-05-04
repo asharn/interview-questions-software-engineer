@@ -55,6 +55,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [What is sping boot acuator](https://www.baeldung.com/spring-boot-actuators)
 - [What is dev tools in spring? For what purpose it is used?](https://www.baeldung.com/spring-boot-devtools)
 - [What is spring MVC?](https://www.baeldung.com/spring-mvc-tutorial#springmvc)
+- Write spring annotation with cron expression for a job which execute at every 5 min. Is at main class we to annotate any annotaion?If yes then with which?
 
 # Hibernate
 
@@ -182,3 +183,4 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
           }
       }
   ```
+- all permutation of a string = "ABC" then ouput : ABC, ACB, BAC, BCA, CAB, CBA
