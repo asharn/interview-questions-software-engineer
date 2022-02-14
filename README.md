@@ -12,6 +12,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Producer and consumer approach](https://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/)
   - [final syncronization variable or method can be possible?](https://rules.sonarsource.com/java/RSPEC-2445)
   - [Why is synchronized block better than synchronized method?](https://stackoverflow.com/questions/20906548/why-is-synchronized-block-better-than-synchronized-method)
+  - [Why Wait(), Notify() and NotifyAll() Defined in Object Class?](https://www.devglan.com/corejava/why-wait-notify-notifyall-defined-in-object-class)
 - ## Java-8
   - [Wha is metaspace in java 8?](https://www.baeldung.com/java-permgen-metaspace)
   - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
@@ -27,6 +28,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [Types of classloader and Bootstrap classloader?](https://www.baeldung.com/java-classloaders)
 - [use of transient keyword](https://stackoverflow.com/questions/20700530/why-use-the-transient-keyword-in-java)
 - [HashMap is on which data structure?](https://www.javatpoint.com/working-of-hashmap-in-java)
+- [How ConcurrentHashMap Works Internally in Java?](https://dzone.com/articles/how-concurrenthashmap-works-internally-in-java)
 - [Eliminated permGen memory block from java 8, why?](https://roytuts.com/why-permgen-space-was-removed-from-java/)
 - [Optional with stream() can be applied or not?](https://stackoverflow.com/questions/51668246/java-lambda-how-to-traverse-optional-list-stream-of-optionals)
 - [How to make class immutable?](https://dzone.com/articles/how-to-create-an-immutable-class-in-java)
@@ -56,6 +58,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [What is dev tools in spring? For what purpose it is used?](https://www.baeldung.com/spring-boot-devtools)
 - [What is spring MVC?](https://www.baeldung.com/spring-mvc-tutorial#springmvc)
 - Write spring annotation with cron expression for a job which execute at every 5 min. Is at main class we to annotate any annotaion?If yes then with which?
+- [When to use Qualifier and Primary in Spring?](https://stackoverflow.com/questions/56642356/when-to-use-qualifier-and-primary-in-spring)
 
 # Hibernate
 
@@ -68,6 +71,7 @@ http://hibernate.org/orm/documentation/5.4/
 - [How to use super class and subclass as individual entity?](https://www.baeldung.com/hibernate-inheritance)
 - [Where we can use @manyToMany mapping, explain we example?](https://howtodoinjava.com/hibernate/hibernate-many-to-many-mapping/)
 - [What is disadvantage of hibernate?](https://www.quora.com/What-are-disadvantages-of-hibernate)
+- [What is the "N+1 selects problem" in ORM (Object-Relational Mapping)?](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
 
 # MySql
 
