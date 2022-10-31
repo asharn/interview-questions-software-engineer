@@ -13,6 +13,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [final syncronization variable or method can be possible?](https://rules.sonarsource.com/java/RSPEC-2445)
   - [Why is synchronized block better than synchronized method?](https://stackoverflow.com/questions/20906548/why-is-synchronized-block-better-than-synchronized-method)
   - [Why Wait(), Notify() and NotifyAll() Defined in Object Class?](https://www.devglan.com/corejava/why-wait-notify-notifyall-defined-in-object-class)
+  - [Guide To CompletableFuture](https://www.baeldung.com/java-completablefuture)
 - ## Java-8
   - [Wha is metaspace in java 8?](https://www.baeldung.com/java-permgen-metaspace)
   - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
@@ -21,6 +22,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Stateless and stateful operations of stream](https://www.oreilly.com/library/view/introduction-to-programming/9781788839129/50f54a6f-dd25-40bc-89d2-31b73d95b6b7.xhtml)
   - [How parallel stream works?](https://www.geeksforgeeks.org/what-is-java-parallel-streams/)
   - [What is major diff. between forEach and stream?](https://www.baeldung.com/java-collection-stream-foreach)
+  - [Optional class in java 8 uses and methods available](https://www.baeldung.com/java-11-new-features)
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
 - [Types of GC](https://www.baeldung.com/jvm-garbage-collectors)
 - [Explain internal working of GC(Garbage Collector)?](https://www.hackerearth.com/practice/notes/how-garbage-collection-works-in-java/)
@@ -35,6 +37,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [How many different ways to create objects in Java?](https://www.tutorialspoint.com/5-different-ways-to-create-objects-in-Java)
 - [Why string is immutable class?](https://stackoverflow.com/questions/22397861/why-is-string-immutable-in-java)
 - [Is java a pure object oriented programming language?](https://www.geeksforgeeks.org/java-not-purely-object-oriented-language)
+- [New Faetures in java-11](https://www.baeldung.com/java-11-new-features)
   
 
 
