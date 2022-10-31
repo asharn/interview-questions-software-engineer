@@ -37,7 +37,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [How many different ways to create objects in Java?](https://www.tutorialspoint.com/5-different-ways-to-create-objects-in-Java)
 - [Why string is immutable class?](https://stackoverflow.com/questions/22397861/why-is-string-immutable-in-java)
 - [Is java a pure object oriented programming language?](https://www.geeksforgeeks.org/java-not-purely-object-oriented-language)
-- [New Faetures in java-11](https://www.baeldung.com/java-11-new-features)
+- [New Faetures in java-11?](https://www.baeldung.com/java-11-new-features)
+- [Benefits of using Generics in Java?](https://docs.oracle.com/javase/tutorial/java/generics/why.html)
   
 
 
