@@ -194,3 +194,6 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
       }
   ```
 - all permutation of a string = "ABC" then ouput : ABC, ACB, BAC, BCA, CAB, CBA
+- [https://www.onlinegdb.com/Ptod_C-qS](https://www.onlinegdb.com/Ptod_C-qS)
+- [https://www.onlinegdb.com/2_k3E2v6H(https://www.onlinegdb.com/2_k3E2v6H)
+- 
