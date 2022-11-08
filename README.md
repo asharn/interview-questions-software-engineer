@@ -23,6 +23,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [How parallel stream works?](https://www.geeksforgeeks.org/what-is-java-parallel-streams/)
   - [What is major diff. between forEach and stream?](https://www.baeldung.com/java-collection-stream-foreach)
   - [Optional class in java 8 uses and methods available](https://www.baeldung.com/java-11-new-features)
+  - [Functional Interface](https://www.geeksforgeeks.org/functional-interfaces-java/)
+  - [Why java is known as functional programing?](https://www.baeldung.com/java-functional-programming)
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
 - [Types of GC](https://www.baeldung.com/jvm-garbage-collectors)
 - [Explain internal working of GC(Garbage Collector)?](https://www.hackerearth.com/practice/notes/how-garbage-collection-works-in-java/)
