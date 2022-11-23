@@ -65,6 +65,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [What is spring MVC?](https://www.baeldung.com/spring-mvc-tutorial#springmvc)
 - Write spring annotation with cron expression for a job which execute at every 5 min. Is at main class we to annotate any annotaion?If yes then with which?
 - [When to use Qualifier and Primary in Spring?](https://stackoverflow.com/questions/56642356/when-to-use-qualifier-and-primary-in-spring)
+- [How to add intercept in Spring Application or which annotation is used to implement interceptor](https://www.tutorialspoint.com/spring_boot/spring_boot_interceptor.htm)
 
 # Hibernate
 
@@ -196,4 +197,4 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - all permutation of a string = "ABC" then ouput : ABC, ACB, BAC, BCA, CAB, CBA
 - [https://www.onlinegdb.com/Ptod_C-qS](https://www.onlinegdb.com/Ptod_C-qS)
 - [https://www.onlinegdb.com/2_k3E2v6H(https://www.onlinegdb.com/2_k3E2v6H)
-- 
+- [Print the second highest from the given list of integer in java](https://www.javatpoint.com/java-program-to-find-second-largest-number-in-an-array)
