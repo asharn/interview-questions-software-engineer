@@ -66,6 +66,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - Write spring annotation with cron expression for a job which execute at every 5 min. Is at main class we to annotate any annotaion?If yes then with which?
 - [When to use Qualifier and Primary in Spring?](https://stackoverflow.com/questions/56642356/when-to-use-qualifier-and-primary-in-spring)
 - [How to add intercept in Spring Application or which annotation is used to implement interceptor](https://www.tutorialspoint.com/spring_boot/spring_boot_interceptor.htm)
+- [Twelve-Factor Methodology in a Spring Boot Microservice](https://www.baeldung.com/spring-boot-12-factor)
 
 # Hibernate
 
