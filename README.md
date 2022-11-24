@@ -80,7 +80,7 @@ http://hibernate.org/orm/documentation/5.4/
 - [What is disadvantage of hibernate?](https://www.quora.com/What-are-disadvantages-of-hibernate)
 - [What is the "N+1 selects problem" in ORM (Object-Relational Mapping)?](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
 
-# MySql
+# Sql
 
 - [Self join of same table for username and manager name.](https://www.sqlservertutorial.net/sql-server-basics/sql-server-self-join)
 - [What is the use of Composite key?](https://www.javatpoint.com/sql-composite-key)
@@ -88,6 +88,8 @@ http://hibernate.org/orm/documentation/5.4/
 - [How to delete only duplicate/copy from employ table?](https://www.sqlshack.com/different-ways-to-sql-delete-duplicate-rows-from-a-sql-table/#:~:text=SQL%20delete%20duplicate%20Rows%20using%20Group%20By%20and%20having%20clause&text=The%20Group%20By%20clause%20groups,1%20in%20the%20Employee%20table.)
 - [How to fetch first and last record from the table?](https://www.tutorialspoint.com/how-to-get-the-first-and-last-record-of-the-table-in-mysql#:~:text=To%20get%20the%20first%20and%20last%20record%2C%20use%20UNION.,number%20of%20records%20you%20want.)
 - [Write MySql query to print second highest salary from employee table?](https://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html)
+- [What is difference between OLAP and OLTP](https://www.geeksforgeeks.org/difference-between-olap-and-oltp-in-dbms)
+
 
 # Rest API
 - [Best practice for writing naming convention of api URI.](https://medium.com/linkit-intecs/rest-resource-naming-best-practices-cbee65f37a62)
@@ -150,6 +152,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 # MISC
 - [Different HTTP types? What is PATCH http method?](https://www.tutorialspoint.com/http/http_methods.htm)
 - [What will be differrent reason when below 2 mb file uploaded and above doesn't through a api?](https://stackoverflow.com/questions/64166566/what-is-the-maximum-file-size-allowed-to-send-through-rest-api)
+- [What is difference between process and program?](https://www.geeksforgeeks.org/difference-between-program-and-process)
 
 # Competitive Programming
 - Find 2nd lagest number in an array? Input: {23,10,34,23,20} -> output: 23
@@ -196,5 +199,5 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
   ```
 - all permutation of a string = "ABC" then ouput : ABC, ACB, BAC, BCA, CAB, CBA
 - [https://www.onlinegdb.com/Ptod_C-qS](https://www.onlinegdb.com/Ptod_C-qS)
-- [https://www.onlinegdb.com/2_k3E2v6H(https://www.onlinegdb.com/2_k3E2v6H)
+- [https://www.onlinegdb.com/2_k3E2v6H](https://www.onlinegdb.com/2_k3E2v6H)
 - [Print the second highest from the given list of integer in java](https://www.javatpoint.com/java-program-to-find-second-largest-number-in-an-array)
