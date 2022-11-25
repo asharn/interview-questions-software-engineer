@@ -202,3 +202,31 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [https://www.onlinegdb.com/Ptod_C-qS](https://www.onlinegdb.com/Ptod_C-qS)
 - [https://www.onlinegdb.com/2_k3E2v6H](https://www.onlinegdb.com/2_k3E2v6H)
 - [Print the second highest from the given list of integer in java](https://www.javatpoint.com/java-program-to-find-second-largest-number-in-an-array)
+- [Print the middle element of LinkedList in java?](https://www.programiz.com/java-programming/examples/get-middle-element-of-linkedlist)
+- [Recursive find fibonacci number?](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
+  ```
+      public class Test {
+
+      //0,1,1,2,3,5,8,13
+      public static int fib(int n) {
+        if(n==1) {
+          return 0;
+        }else if(n==2){
+          return 1;
+        }else {
+          return fib(n-1)+fib(n-2);
+        }
+
+      }
+      public static void main(String []args) {
+        System.out.println(fib(8));
+
+      }
+     }
+  ```
+- [Using Steam API genelrate list of string from a comma seperated string]
+  ```
+    String commanSeperated = "ashish,karn,sunil,kumar,anil,verma";
+		List<String> listOfStr = Arrays.stream(commanSeperated.split(",")).collect(Collectors.toList());
+  ```
+- 
