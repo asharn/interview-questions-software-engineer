@@ -14,6 +14,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Why is synchronized block better than synchronized method?](https://stackoverflow.com/questions/20906548/why-is-synchronized-block-better-than-synchronized-method)
   - [Why Wait(), Notify() and NotifyAll() Defined in Object Class?](https://www.devglan.com/corejava/why-wait-notify-notifyall-defined-in-object-class)
   - [Guide To CompletableFuture](https://www.baeldung.com/java-completablefuture)
+  - [Difference Between ConcurrentHashMap and SynchronizedHashMap](https://www.geeksforgeeks.org/difference-between-concurrenthashmap-and-synchronizedhashmap/)
 - ## Java-8
   - [Wha is metaspace in java 8?](https://www.baeldung.com/java-permgen-metaspace)
   - [Supplier Interface in java](https://www.geeksforgeeks.org/supplier-interface-in-java-with-examples/)
@@ -67,6 +68,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [When to use Qualifier and Primary in Spring?](https://stackoverflow.com/questions/56642356/when-to-use-qualifier-and-primary-in-spring)
 - [How to add intercept in Spring Application or which annotation is used to implement interceptor](https://www.tutorialspoint.com/spring_boot/spring_boot_interceptor.htm)
 - [Twelve-Factor Methodology in a Spring Boot Microservice](https://www.baeldung.com/spring-boot-12-factor)
+- [How to write centralized exception handler in SpringBoot?](https://www.baeldung.com/exception-handling-for-rest-with-spring)
+- [What is @ControllerAdvice in Spring?](https://stackoverflow.com/a/57731908/3384821)
 
 # Hibernate
 
@@ -202,7 +205,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [https://www.onlinegdb.com/Ptod_C-qS](https://www.onlinegdb.com/Ptod_C-qS)
 - [https://www.onlinegdb.com/2_k3E2v6H](https://www.onlinegdb.com/2_k3E2v6H)
 - [Print the second highest from the given list of integer in java](https://www.javatpoint.com/java-program-to-find-second-largest-number-in-an-array)
-- [Print the middle element of LinkedList in java?](https://www.programiz.com/java-programming/examples/get-middle-element-of-linkedlist)
+- [Java Program to Get the middle element of LinkedList in a single iteration.](https://www.programiz.com/java-programming/examples/get-middle-element-of-linkedlist)
 - [Recursive find fibonacci number?](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
   ```
       public class Test {
