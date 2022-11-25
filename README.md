@@ -42,6 +42,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [Is java a pure object oriented programming language?](https://www.geeksforgeeks.org/java-not-purely-object-oriented-language)
 - [New Faetures in java-11?](https://www.baeldung.com/java-11-new-features)
 - [Benefits of using Generics in Java?](https://docs.oracle.com/javase/tutorial/java/generics/why.html)
+- [What is use of volatile keyword?](https://www.baeldung.com/java-volatile)
   
 
 
