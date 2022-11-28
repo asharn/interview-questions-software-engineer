@@ -165,6 +165,9 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [Different HTTP types? What is PATCH http method?](https://www.tutorialspoint.com/http/http_methods.htm)
 - [What will be differrent reason when below 2 mb file uploaded and above doesn't through a api?](https://stackoverflow.com/questions/64166566/what-is-the-maximum-file-size-allowed-to-send-through-rest-api)
 - [What is difference between process and program?](https://www.geeksforgeeks.org/difference-between-program-and-process)
+- [What is CSRF(Cross-Site Request Forgery)?](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+- [What is CROS Policy?](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [What is Oauth2?](https://auth0.com/intro-to-iam/what-is-oauth-2)
 
 # Competitive Programming
 - Find 2nd lagest number in an array? Input: {23,10,34,23,20} -> output: 23
