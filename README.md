@@ -26,6 +26,10 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Optional class in java 8 uses and methods available](https://www.baeldung.com/java-11-new-features)
   - [Functional Interface](https://www.geeksforgeeks.org/functional-interfaces-java/)
   - [Why java is known as functional programing?](https://www.baeldung.com/java-functional-programming)
+  - [Stream map and flatmap example](https://www.geeksforgeeks.org/difference-between-map-and-flatmap-in-java-stream/)
+  - 
+
+
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
 - [Types of GC](https://www.baeldung.com/jvm-garbage-collectors)
 - [Explain internal working of GC(Garbage Collector)?](https://www.hackerearth.com/practice/notes/how-garbage-collection-works-in-java/)
@@ -71,6 +75,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [Twelve-Factor Methodology in a Spring Boot Microservice](https://www.baeldung.com/spring-boot-12-factor)
 - [How to write centralized exception handler in SpringBoot?](https://www.baeldung.com/exception-handling-for-rest-with-spring)
 - [What is @ControllerAdvice in Spring?](https://stackoverflow.com/a/57731908/3384821)
+- [What is PostConstruct in Spring?](https://www.baeldung.com/spring-postconstruct-predestroy)
 
 # Hibernate
 
@@ -84,6 +89,7 @@ http://hibernate.org/orm/documentation/5.4/
 - [Where we can use @manyToMany mapping, explain we example?](https://howtodoinjava.com/hibernate/hibernate-many-to-many-mapping/)
 - [What is disadvantage of hibernate?](https://www.quora.com/What-are-disadvantages-of-hibernate)
 - [What is the "N+1 selects problem" in ORM (Object-Relational Mapping)?](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
+- [Different between clear(), evict() and close() methods in Hibernate?](https://stackoverflow.com/questions/47142256/how-to-correctly-use-clear-evict-and-close-methods-in-hibernate)
 
 # Sql
 
@@ -233,4 +239,5 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
     String commanSeperated = "ashish,karn,sunil,kumar,anil,verma";
 		List<String> listOfStr = Arrays.stream(commanSeperated.split(",")).collect(Collectors.toList());
   ```
+- Transform from [0,1,0,1,0,1,1,1,0,0] to [0,0,0,0,0,1,1,1,1,1]
 - 
