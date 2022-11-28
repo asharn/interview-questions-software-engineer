@@ -244,4 +244,4 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 		List<String> listOfStr = Arrays.stream(commanSeperated.split(",")).collect(Collectors.toList());
   ```
 - Transform from [0,1,0,1,0,1,1,1,0,0] to [0,0,0,0,0,1,1,1,1,1]
-- 
+- Write a java program to get maxing profit by buying and selling a share from a given set of values. If consider buying only once and selling once.
