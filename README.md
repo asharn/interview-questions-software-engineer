@@ -76,6 +76,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [How to write centralized exception handler in SpringBoot?](https://www.baeldung.com/exception-handling-for-rest-with-spring)
 - [What is @ControllerAdvice in Spring?](https://stackoverflow.com/a/57731908/3384821)
 - [What is PostConstruct in Spring?](https://www.baeldung.com/spring-postconstruct-predestroy)
+- [What is springboot actuators?](https://www.baeldung.com/spring-boot-actuators)
 
 # Hibernate
 
