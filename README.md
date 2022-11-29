@@ -261,5 +261,42 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 	Input: prices = [7,6,4,3,1]
 	Output: 0
 	Explanation: In this case, no transactions are done and the max profit = 0.
+	
+	package com.st.pdm.prisweb.manufacturing.manager.impl;
+
+	import java.util.HashMap;
+	import java.util.Map;
+	import java.util.Map.Entry;
+
+	public class Test {
+		public static void main(String []args) {
+			int stockPrices[] = {7,6,4,3,1};
+
+			int len = stockPrices.length;		
+			Map<Integer,Integer> pairs = new HashMap<>();
+			for(int i=0;i<len;i++) {
+				for(int j=i+1;j<len;j++) {
+					if(stockPrices[i] < stockPrices[j] ) {
+						if(pairs.get(stockPrices[i]) == null || pairs.get(stockPrices[i]) < stockPrices[j]) {
+							pairs.put(stockPrices[i], stockPrices[j]);
+						}
+					}
+				}
+			}
+
+			System.out.println(pairs);
+
+			int max = 0;
+			for(Entry<Integer, Integer> value:pairs.entrySet()) {
+				if(max < (value.getValue() - value.getKey())) {
+					max = value.getValue() - value.getKey();
+				}
+			}
+
+			System.out.println(max);
+
+		}
+	}
+
 
 ```
