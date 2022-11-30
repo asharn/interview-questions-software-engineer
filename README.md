@@ -27,7 +27,6 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Functional Interface](https://www.geeksforgeeks.org/functional-interfaces-java/)
   - [Why java is known as functional programing?](https://www.baeldung.com/java-functional-programming)
   - [Stream map and flatmap example](https://www.geeksforgeeks.org/difference-between-map-and-flatmap-in-java-stream/)
-  - 
 
 
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
@@ -47,6 +46,9 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [New Faetures in java-11?](https://www.baeldung.com/java-11-new-features)
 - [Benefits of using Generics in Java?](https://docs.oracle.com/javase/tutorial/java/generics/why.html)
 - [What is use of volatile keyword?](https://www.baeldung.com/java-volatile)
+- [Why we use LinkedList if we have ArrayList?](https://www.tutorialspoint.com/When-to-use-LinkedList-over-ArrayList-in-Java)
+- [Difference between HashSet & TreeSet and when to use what?](https://www.geeksforgeeks.org/hashset-vs-treeset-in-java)
+- [Why is it need for hashCode and equal method to override in a class?](https://www.whizlabs.com/blog/importance-of-overriding-equals-and-hashcode-methods)
   
 
 
@@ -101,6 +103,8 @@ http://hibernate.org/orm/documentation/5.4/
 - [How to fetch first and last record from the table?](https://www.tutorialspoint.com/how-to-get-the-first-and-last-record-of-the-table-in-mysql#:~:text=To%20get%20the%20first%20and%20last%20record%2C%20use%20UNION.,number%20of%20records%20you%20want.)
 - [Write MySql query to print second highest salary from employee table?](https://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html)
 - [What is difference between OLAP and OLTP](https://www.geeksforgeeks.org/difference-between-olap-and-oltp-in-dbms)
+- [What is left outer join? Explain](https://www.geeksforgeeks.org/difference-between-left-right-and-full-outer-join/)
+- [What are the types of normalization? Explain all?](https://www.sqlshack.com/what-is-database-normalization-in-sql-server/)
 
 
 # Rest API
@@ -131,6 +135,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [What are the different design pattern use in Spring framework?](https://www.baeldung.com/spring-framework-design-patterns)
 - [How to prevent Singleton Pattern from Reflection, Serialization and Cloning?](https://www.geeksforgeeks.org/prevent-singleton-pattern-reflection-serialization-cloning/)
 - [What is microservice design pattern?](https://www.edureka.co/blog/microservices-design-patterns)
+- [What is factory design pattern and how is it correlated to Singleton design pattern?](https://www.digitalocean.com/community/tutorials/factory-design-pattern-in-java)
 
 
 # Maven
@@ -168,6 +173,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [What is CSRF(Cross-Site Request Forgery)?](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 - [What is CROS Policy?](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [What is Oauth2?](https://auth0.com/intro-to-iam/what-is-oauth-2)
+- [How to improve website proformance(frontend, backend, database,etc)](https://www.bacancytechnology.com/blog/improve-your-website-performance)
 
 # Competitive Programming
 - Find 2nd lagest number in an array? Input: {23,10,34,23,20} -> output: 23
