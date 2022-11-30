@@ -159,6 +159,16 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [How to manage Latency and Fault Tolerance for Distributed Systems?](https://github.com/Netflix/Hystrix)
 
 
+# Javascript
+
+- [What is Evenloop?](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
+
+
+# EXTJS
+
+- [How to call Ajax in ExtJs?](https://www.extjs-tutorial.com/extjs/ajax-request-in-extjs4)
+
+
 # PUZZLE
 
 - [100 doors](https://www.geeksforgeeks.org/puzzle-16-100-doors/)
