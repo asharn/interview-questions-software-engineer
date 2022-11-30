@@ -260,6 +260,24 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 		List<String> listOfStr = Arrays.stream(commanSeperated.split(",")).collect(Collectors.toList());
   ```
 - Transform from [0,1,0,1,0,1,1,1,0,0] to [0,0,0,0,0,1,1,1,1,1]
+```
+	int[] arr = {0, 1, 0, 1, 0, 1, 1, 0, 1, 1 };
+		boolean flagFindOne = true;
+		int indexOfOne = -1;
+		for (int i = 0; i < arr.length; i++) {
+			if (flagFindOne && arr[i] == 1) {
+				indexOfOne = i;
+				flagFindOne = false;
+			} else if (!flagFindOne && arr[i] == 0) {
+				int temp = arr[i];
+				arr[i] = arr[indexOfOne];
+				arr[indexOfOne] = temp;
+				i = indexOfOne;
+				flagFindOne = true;
+			}
+		}
+        System.out.println(Arrays.toString(arr));
+```
 - Write a java program to get maxing profit by buying and selling a share from a given set of values. If consider buying only once and selling once.
 - You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
