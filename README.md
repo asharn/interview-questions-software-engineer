@@ -305,17 +305,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 	Input: prices = [7,6,4,3,1]
 	Output: 0
 	Explanation: In this case, no transactions are done and the max profit = 0.
-	
-	package com.st.pdm.prisweb.manufacturing.manager.impl;
 
-	import java.util.HashMap;
-	import java.util.Map;
-	import java.util.Map.Entry;
-
-	public class Test {
-		public static void main(String []args) {
 			int stockPrices[] = {7,6,4,3,1};
-
 			int len = stockPrices.length;		
 			Map<Integer,Integer> pairs = new HashMap<>();
 			for(int i=0;i<len;i++) {
@@ -327,20 +318,59 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 					}
 				}
 			}
-
 			System.out.println(pairs);
-
 			int max = 0;
 			for(Entry<Integer, Integer> value:pairs.entrySet()) {
 				if(max < (value.getValue() - value.getKey())) {
 					max = value.getValue() - value.getKey();
 				}
 			}
-
 			System.out.println(max);
+```
+- Find forth largest number using stream api.
+  	``` 	int arr[] = {7,8,9,6,5,4,11,15,16,7,8,9,3,2,1,11,15,16};
+		int fourthLargest = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).skip(3).findFirst().get();
+		System.out.print(fourthLargest);
+	```
+		
+- Find employe list which have lowest salary from the dept.
+```Employe
+	name:
+	salary:
+	dept:
+	emp_id
 
+	Map<Integer, Employe> mapOfEmployes
+	
+```
+
+
+```
+	main(){
+		String str = "ashish Karnqweeeqwewqes123645dfsdfa123";
+		int arr[] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; //26 length
+
+		for(int i=0;i<str.lenght;i++){
+			if(ascii(str[i]) > 96 && ascii(str[i]) < 122){
+				arr[ascii(str[i])-97] =  arr[ascii(str[i])-97] + 1;
+			}
+		}
+		print(isAllCharExists(arr))
+		}
+	boolean isAllCharExists(int []arr){
+	for(int i=0;i<arr.length;i++){
+		if(arr[i]==0){
+			return false;
 		}
 	}
+	return true;
+	}
 
-
+	boolean displayCharCount(int []arr){
+	for(int i=0;i<arr.length;i++){
+			print(charValueOf(97+i), " ")
+			print(arr[i])
+	}
+	return true;
+	}
 ```
