@@ -158,11 +158,21 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [How to prevent a network or service failure from cascading to other services?](https://microservices.io/patterns/reliability/circuit-breaker.html#:~:text=RegistrationServiceProxy%20from%20the%20Microservices%20Example,when%20invoking%20a%20remote%20service.&text=The%20%40HystrixCommand%20arranges%20for%20calls,executed%20using%20a%20circuit%20breaker.)
 - [How to manage Latency and Fault Tolerance for Distributed Systems?](https://github.com/Netflix/Hystrix)
 
+#Python
+- []()
 
 # Javascript
 
 - [What is Evenloop?](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
+
+# ReactJS
+
+- [What are different types of React Component?](https://www.geeksforgeeks.org/reactjs-components/)
+- [How router is done in react?](https://v5.reactrouter.com/web/guides/primary-components)
+- [How to consume rest api from react?](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
+- [What are the design principle you follow while creating react app?](https://reactjs.org/docs/design-principles.html)
+- [What is hooks in react?](https://www.freecodecamp.org/news/react-hooks-fundamentals)
 
 # EXTJS
 
