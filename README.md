@@ -49,6 +49,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [Why we use LinkedList if we have ArrayList?](https://www.tutorialspoint.com/When-to-use-LinkedList-over-ArrayList-in-Java)
 - [Difference between HashSet & TreeSet and when to use what?](https://www.geeksforgeeks.org/hashset-vs-treeset-in-java)
 - [Why is it need for hashCode and equal method to override in a class?](https://www.whizlabs.com/blog/importance-of-overriding-equals-and-hashcode-methods)
+- [Difference between abstract class and interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
   
 
 
@@ -100,7 +101,7 @@ http://hibernate.org/orm/documentation/5.4/
 - [What is the use of Composite key?](https://www.javatpoint.com/sql-composite-key)
 -[ MySql Tuning?](https://phoenixnap.com/kb/improve-mysql-performance-tuning-optimization)
 - [How to delete only duplicate/copy from employ table?](https://www.sqlshack.com/different-ways-to-sql-delete-duplicate-rows-from-a-sql-table/#:~:text=SQL%20delete%20duplicate%20Rows%20using%20Group%20By%20and%20having%20clause&text=The%20Group%20By%20clause%20groups,1%20in%20the%20Employee%20table.)
-- [How to fetch first and last record from the table?](https://www.tutorialspoint.com/how-to-get-the-first-and-last-record-of-the-table-in-mysql#:~:text=To%20get%20the%20first%20and%20last%20record%2C%20use%20UNION.,number%20of%20records%20you%20want.)
+- [How to fetch first and last record from the table?](https://www.tutorialspoint.com/how-to-get-the-first-and-last-record-of-the-table-in-mysql)
 - [Write MySql query to print second highest salary from employee table?](https://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html)
 - [What is difference between OLAP and OLTP](https://www.geeksforgeeks.org/difference-between-olap-and-oltp-in-dbms)
 - [What is left outer join? Explain](https://www.geeksforgeeks.org/difference-between-left-right-and-full-outer-join/)
@@ -158,8 +159,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [How to prevent a network or service failure from cascading to other services?](https://microservices.io/patterns/reliability/circuit-breaker.html#:~:text=RegistrationServiceProxy%20from%20the%20Microservices%20Example,when%20invoking%20a%20remote%20service.&text=The%20%40HystrixCommand%20arranges%20for%20calls,executed%20using%20a%20circuit%20breaker.)
 - [How to manage Latency and Fault Tolerance for Distributed Systems?](https://github.com/Netflix/Hystrix)
 
-#Python
-- []()
+# Python
+- [How to call Rest Service in Python?](https://realpython.com/api-integration-in-python/)
 
 # Javascript
 
@@ -344,7 +345,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 	
 ```
 
-
+- Find count of string and all char existence
 ```
 	main(){
 		String str = "ashish Karnqweeeqwewqes123645dfsdfa123";
@@ -373,4 +374,16 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 	}
 	return true;
 	}
+```
+
+- Reverse word of the sentence. Like "my name is khan" to "ym eman si nahk"
+ ```
+ 	String str = "my name is khan";
+	String[] strArr = str.split(" ");
+	for(int i=0;i<strArr.length;i++) {
+		for(int j=strArr[i].length()-1;j>=0;j--) {
+			System.out.print(strArr[i].charAt(j));
+		}
+		System.out.print(" ");
+	}	
 ```
