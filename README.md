@@ -396,5 +396,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 	employee.rating = 6;
 	employees.add(employee);
 	List<Employee> collect = employees.stream().sorted((f1, f2) -> Integer.compare(f2.rating, f1.rating)).limit(3).collect(Collectors.toList());
+	or 
+	List<Employee> collect = employees.stream().sorted(Comparator.comparingLong(Employee::getRating).reversed()).limit(3).collect(Collectors.toList());
+
 	System.out.println(collect);
 ```
