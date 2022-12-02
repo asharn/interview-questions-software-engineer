@@ -387,3 +387,14 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 		System.out.print(" ");
 	}	
 ```
+- Three best rating from Employee list
+``` 	List<Employee> employees = new ArrayList<>();
+	Employee employee = new Employee();
+	employee.rating = 5;
+	employees.add(employee);
+	employee = new Employee();
+	employee.rating = 6;
+	employees.add(employee);
+	List<Employee> collect = employees.stream().sorted((f1, f2) -> Integer.compare(f2.rating, f1.rating)).limit(3).collect(Collectors.toList());
+	System.out.println(collect);
+```
