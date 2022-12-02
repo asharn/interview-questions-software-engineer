@@ -27,6 +27,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
   - [Functional Interface](https://www.geeksforgeeks.org/functional-interfaces-java/)
   - [Why java is known as functional programing?](https://www.baeldung.com/java-functional-programming)
   - [Stream map and flatmap example](https://www.geeksforgeeks.org/difference-between-map-and-flatmap-in-java-stream/)
+  - [What is ThreadLocal and when to use this?](https://docs.oracle.com/javase/8/docs/api/java/lang/ThreadLocal.html)
 
 
 - [Why Streaming?(FileUpload)](https://commons.apache.org/proper/commons-fileupload/streaming.html)
