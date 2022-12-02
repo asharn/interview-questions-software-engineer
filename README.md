@@ -55,7 +55,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 
 # Spring
 
-- [@Bean can be used at class level?]()
+- [@Bean can be used at class level?--No]()
   - https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html
   - https://www.baeldung.com/spring-bean-annotations 
 - [What is difference between spring and spring boot?](https://www.baeldung.com/spring-vs-spring-boot)
@@ -80,6 +80,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [What is @ControllerAdvice in Spring?](https://stackoverflow.com/a/57731908/3384821)
 - [What is PostConstruct in Spring?](https://www.baeldung.com/spring-postconstruct-predestroy)
 - [What is springboot actuators?](https://www.baeldung.com/spring-boot-actuators)
+- [what is difference between component and bean in spring?](https://stackoverflow.com/questions/10604298/spring-component-versus-bean)
+- [How to configure multiple datasource in springboot?](https://www.baeldung.com/spring-boot-configure-multiple-datasources)
 
 # Hibernate
 
@@ -401,3 +403,9 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 	System.out.println(collect);
 ```
+- [Create map of word count by using stream api.](https://stackoverflow.com/questions/29122394/word-frequency-count-java-8)
+ ```
+ return items.stream()
+      .filter(Objects::nonNull)
+      .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+  ```
