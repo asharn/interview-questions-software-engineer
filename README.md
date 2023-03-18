@@ -419,3 +419,5 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
       .filter(Objects::nonNull)
       .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
   ```
+  
+- [Sum and average salary of employee(name, salary) using stream?](https://www.baeldung.com/java-stream-sum)
