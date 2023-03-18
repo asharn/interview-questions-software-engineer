@@ -51,6 +51,8 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 - [Difference between HashSet & TreeSet and when to use what?](https://www.geeksforgeeks.org/hashset-vs-treeset-in-java)
 - [Why is it need for hashCode and equal method to override in a class?](https://www.whizlabs.com/blog/importance-of-overriding-equals-and-hashcode-methods)
 - [Difference between abstract class and interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
+- [What is Serialization and Deserialization?](https://www.geeksforgeeks.org/serialization-in-java/)
+- 
   
 
 
@@ -89,6 +91,7 @@ This repository will contain all the java, spring, hibernate, mysql, elastic sea
 http://hibernate.org/orm/documentation/5.4/
 
 - [What Is a Second-Level Cache?](https://www.baeldung.com/hibernate-second-level-cache)
+- [Is cache persist for session means for session object or application or db system?]
 - [Different annotations in hibernate?](https://dzone.com/articles/all-hibernate-annotations-mapping-annotations)
 - [@OneToMany mapping?](https://www.baeldung.com/hibernate-one-to-many)
 - [What is the use of @inheritance?](https://www.baeldung.com/hibernate-inheritance)
@@ -162,12 +165,16 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [How to prevent a network or service failure from cascading to other services?](https://microservices.io/patterns/reliability/circuit-breaker.html#:~:text=RegistrationServiceProxy%20from%20the%20Microservices%20Example,when%20invoking%20a%20remote%20service.&text=The%20%40HystrixCommand%20arranges%20for%20calls,executed%20using%20a%20circuit%20breaker.)
 - [How to manage Latency and Fault Tolerance for Distributed Systems?](https://github.com/Netflix/Hystrix)
 
+# Docker
+- [Do docker have there own server as apache tomcat?](https://stackoverflow.com/questions/27471688/how-to-access-tomcat-running-in-docker-container-from-browser)
+
 # Python
 - [How to call Rest Service in Python?](https://realpython.com/api-integration-in-python/)
+- [What are the ways to fetch second element  from list in Python?](https://stackoverflow.com/questions/51394261/python-access-second-element-of-list)
 
 # Javascript
 
-- [What is Evenloop?](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
+- [What is Eventloop?](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
 
 # ReactJS
@@ -177,6 +184,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 - [How to consume rest api from react?](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
 - [What are the design principle you follow while creating react app?](https://reactjs.org/docs/design-principles.html)
 - [What is hooks in react?](https://www.freecodecamp.org/news/react-hooks-fundamentals)
+- [What is promise and Observable?](https://betterprogramming.pub/observables-vs-promises-which-one-should-you-use-c19aef53c680#:~:text=The%20biggest%20difference%20is%20that,is%20completed%20or%20unsubscribed%20from.)
+- [What is the life cycle of react?](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
 
 # EXTJS
 
