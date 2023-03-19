@@ -164,6 +164,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 
 - [How to prevent a network or service failure from cascading to other services?](https://microservices.io/patterns/reliability/circuit-breaker.html#:~:text=RegistrationServiceProxy%20from%20the%20Microservices%20Example,when%20invoking%20a%20remote%20service.&text=The%20%40HystrixCommand%20arranges%20for%20calls,executed%20using%20a%20circuit%20breaker.)
 - [How to manage Latency and Fault Tolerance for Distributed Systems?](https://github.com/Netflix/Hystrix)
+- [What are the Components are Microservices Architecture?](https://www.optisolbusiness.com/insight/8-core-components-of-microservice-architecture)
 
 # Docker
 - [Do docker have there own server as apache tomcat?](https://stackoverflow.com/questions/27471688/how-to-access-tomcat-running-in-docker-container-from-browser)
