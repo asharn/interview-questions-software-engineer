@@ -172,6 +172,13 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
 # Python
 - [How to call Rest Service in Python?](https://realpython.com/api-integration-in-python/)
 - [What are the ways to fetch second element  from list in Python?](https://stackoverflow.com/questions/51394261/python-access-second-element-of-list)
+- What are different Access Modifier?
+- What is Inheritence?
+- What is the use of @staticmethod and @property?
+- Types of Arguments
+- What are differnt places where single(_) and double Underscore (__) is being used?
+- What is pass keyword?
+- What are tuples, and give an example where you prefer to use tuple instead of list?
 
 # Javascript
 
